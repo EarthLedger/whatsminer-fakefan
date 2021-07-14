@@ -1,9 +1,9 @@
 #!/bin/sh
 
-WORK_DIR="/etc/fake_fan"
+WORK_DIR="/data/etc/fake_fan"
 
 # Real fan speed counts as `real_speed = raw_speed * 30` (from fan-allwinner.c)
-FAN_SPEED=200
+FAN_SPEED=4000
 FAN_PWM=75
 
 # Initialize
